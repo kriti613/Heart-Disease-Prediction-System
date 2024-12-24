@@ -128,10 +128,12 @@ The architecture of the Heart Disease Prediction System is outlined below:
 ## Output
 
 Input Values in the form- 
-<img src"">
+
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/FrontEndOutput1.png" style="height:50vh; width:60vh">
 
 Prediction Result -
-<img src"">
+
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/FrontEndOutput2.png" style="height:50vh; width:60vh">
 
 ## Conclusion
 This project demonstrates the application of machine learning models for predicting heart disease. By analyzing medical data and training various models, the system achieved a high prediction accuracy with the Random Forest model. Future enhancements could involve hyperparameter tuning, feature engineering, and testing on new datasets.
