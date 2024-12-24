@@ -41,6 +41,8 @@ The dataset contains **no null values**.
 - **Mean Cholesterol:** 246.00
 - **Maximum Heart Rate (Thalach):** Mean = 149.11, Min = 71, Max = 202
 
+
+
 ## Data Visualization Insights
 
 ### 1. Comparing Continuous Variables:
@@ -88,6 +90,48 @@ filename = 'rf_model.pkl'
 with open(filename, 'wb') as file:
     pickle.dump(rf_model, file)
 ```
+
+## Backend Project Architecture
+
+The architecture of the Heart Disease Prediction System is outlined below:
+
+```plaintext
+                           +-----------------------+
+                           |   User Interface      |
+                           | (HTML Form & CSS)     |
+                           +-----------------------+
+                                      |
+                                      v
+                         +----------------------------+
+                         |      Flask Backend         |
+                         |  - Routes: / & /predict    |
+                         +----------------------------+
+                                      |
+          +---------------------------+--------------------------+
+          |                                                      |
+          v                                                      v
++-----------------------+                             +-----------------------+
+| Input Preprocessing   |                             |     Random Forest     |
+| - Validate data       |                             |    Machine Learning   |
+| - Format for model    |                             | - Load rf_model.pkl   |
++-----------------------+                             | - Make predictions    |
+                                                      +-----------------------+
+                                                                 |
+                                                                 v
+                                                  +-----------------------+
+                                                  |    Result & Probability|
+                                                  | (Heart Disease: Yes/No |
+                                                  |  & Likelihood %)       |
+                                                  +-----------------------+
+```
+
+## Output
+
+Input Values in the form- 
+<img src"">
+
+Prediction Result -
+<img src"">
 
 ## Conclusion
 This project demonstrates the application of machine learning models for predicting heart disease. By analyzing medical data and training various models, the system achieved a high prediction accuracy with the Random Forest model. Future enhancements could involve hyperparameter tuning, feature engineering, and testing on new datasets.
