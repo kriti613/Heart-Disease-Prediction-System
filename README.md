@@ -45,19 +45,19 @@ The dataset contains **no null values**.
 
 ### 1. Comparing Continuous Variables:
 - Box plots showed that individuals with heart disease tend to have higher values for age, resting blood pressure, and cholesterol levels.
-<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/BoxPlot.png">
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/BoxPlot.png">
 
 ### 2. Comparing Categorical Variables with Target:
 - Bar charts revealed potential associations between heart disease and specific patterns of chest pain types, ECG results, and exercise-induced angina.
-<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/histogram.png">
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/histogram.png">
 
 ### 3. Correlation Heatmap:
 - The strongest positive correlation with heart disease was observed for `thalach` (maximum heart rate) with a correlation value of **0.42**. Other features showed weak or no significant correlations.
-<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heatmap.png">
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/heatmap.png">
 
 ### 4. Scatter Plot Analysis:
 - A trend was observed where maximum heart rate decreased with increasing age. The overlap between individuals with and without heart disease was noted.
-<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/scatterplot.png">
+<img src="https://github.com/kriti613/Heart-Disease-Prediction-System/blob/main/heart_disease_app/img/scatterplot.png">
 
 ## Machine Learning Models
 
